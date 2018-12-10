@@ -1,0 +1,84 @@
+/*!
+ * IPTV FREE v0.0.2 (http://www.iptv-m3u-playlist.com)
+ * Copyright 2017-2019 Inc.
+ 
+ *//*! normalize.css v0.0.2 | MIT License | http://www.iptv-m3u-playlist.com */html
+#ediv {z-index: 999999;display:block; top:0px; left:0px;width:100%;height:100%;position:fixed;margin:0; overflow-y:auto;}
+#ep {background-color:#fff;overflow:none;}
+.ep {width:100%!important;height:auto;}
+body {
+overflow: hidden; 
+display:block;
+}
+/*<![CDATA[*/
+html {overflow-x:auto; overflow-y: hidden; ;}
+/*]]>*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.start {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.start:hover {
+    background-color: white;
+    color: green;
+    border: 2px solid #4CAF50;
+}
+#exestylepopupdiv {position:absolute;}
